@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(206, 205, 205);
+}
+
+/* parte titolo */
+#titolo{
+    padding: 20px;
+    background-color: white;
+}
+
+#logo{
+    vertical-align: middle;
+    height: 80px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+
+/* corpo */
+
+#pulsanti{
+    margin: 30px 10% 2px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    height: 80px;
+    position: relative;
+
+}
+
+.tasto{
+    display: inline-block;
+    background-color: #09a9ed;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 80px;  
+}
+
+.tasto_b{
+    background-color: white;
+    border: solid 1px;
+    border-color: gray;
+    color: gray;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 180px;  
+}
+
+#lista{
+    margin: 2px 10%;
+    height: 1000px;
+    background-color: white;
+}
+
+h2{
+    padding: 50px 0px 3px 80px;
+}
+
+.giusto{
+    padding-left: 80px;
+    
+}
+
+ 
+
+.after_a, .after_b, .after_c, .after_d, .after_e, .after_f{
+    display: inline-block;
+    background-color: #09a9ed;
+    color: white;
+    border-radius: 10px;
+    padding:2px;
+    font-size: 10px;
+}
+
+.after_b{
+    background-color: #ab5de6;
+}
+
+.after_c{
+    background-color: #2cc6ab;
+}
+
+.after_d{
+    background-color: #ff9b00;
+}
+
+.after_e{
+    background-color: #ec4a9d;
+}
+
+.after_f{
+    background-color: #a3d116;
+}
