@@ -71,12 +71,13 @@ h2{
 
 .giusto{
     padding-left: 80px;
+    vertical-align: middle;
     
 }
 
  
 
-.after_a, .after_b, .after_c, .after_d, .after_e, .after_f{
+.after{
     display: inline-block;
     background-color: #09a9ed;
     color: white;
@@ -85,22 +86,26 @@ h2{
     font-size: 10px;
 }
 
-.after_b{
+#after_a{
+    background-color: #09a9ed;
+}
+
+#after_b{
     background-color: #ab5de6;
 }
 
-.after_c{
+#after_c{
     background-color: #2cc6ab;
 }
 
-.after_d{
+#after_d{
     background-color: #ff9b00;
 }
 
-.after_e{
+#after_e{
     background-color: #ec4a9d;
 }
 
-.after_f{
+#after_f{
     background-color: #a3d116;
 }
